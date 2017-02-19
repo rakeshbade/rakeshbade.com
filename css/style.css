@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'bavroregular';
+    src: url('../fonts/bavro-regular-webfont.eot');
+    src: url('../fonts/bavro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bavro-regular-webfont.woff2') format('woff2'), url('../fonts/bavro-regular-webfont.woff') format('woff'), url('../fonts/bavro-regular-webfont.ttf') format('truetype'), url('../fonts/bavro-regular-webfont.svg#bavroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1.heading {
+    font-family: 'bavroregular', sans-serif;
+    margin: 0;
+}
+
+h1.heading {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+h2.subhead {
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content{
+	max-width: 1200px;
+    margin: auto;
+}
+.content p{
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+.section-dark {
+    color: #fff;
+    background-color: #333333;
+}
+
+.section-light {
+    color: #333333;
+}
+
+.section {
+    text-align: center;
+}
+
+.fp-slidesNav.bottom {
+    bottom: 25px;
+}
+
+#infoMenu li a {
+    color: #fff;
+}
+
+#section2 h1 {
+    color: #333;
+}
+.fp-controlArrow.fp-prev{
+	border-color:transparent #666666 transparent transparent;
+}
+.fp-controlArrow.fp-next{
+	border-color: transparent transparent transparent #666666;
+}
+.logos{
+    display: block;
+    width: 100%;
+    margin-bottom:30px;
+}
+.logos .logo{
+    display: inline-block;
+    padding: 10px;
+}
+.logos .logo img{
+    display: block;
+}
+.logos .logo strong{
+    font-size: 12px;
+    font-weight: normal;
+}
+.section{
+    overflow: hidden;
+}
+#particle-js{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px
+}
